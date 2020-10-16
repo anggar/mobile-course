@@ -16,7 +16,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        int[] viewIds = {R.id.btn_contact, R.id.btn_music, R.id.btn_pic, R.id.btn_camera, R.id.btn_youtube};
+        int[] viewIds = {
+                R.id.btn_contact, R.id.btn_music, R.id.btn_pic,
+                R.id.btn_camera, R.id.btn_youtube, R.id.btn_browser
+        };
 
         for (int viewId : viewIds) {
             Button btn = findViewById(viewId);
@@ -45,6 +48,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btn_youtube:
                 intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://youtu.be"));
                 break;
+            case R.id.btn_browser:
+                intent = new Intent(this, Browser.class);
             default:
                 break;
         }

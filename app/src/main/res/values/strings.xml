@@ -5,4 +5,7 @@
     <string name="btn_pic">Buka gambar</string>
     <string name="btn_camera">Buka kamera</string>
     <string name="btn_youtube">Buka YouTube</string>
+    <string name="hint_url">URL</string>
+    <string name="btn_go">Go</string>
+    <string name="btn_browser">Local browser</string>
 </resources>
