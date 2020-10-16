@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Mobile Assignment</string>
+    <string name="btn_contact">Buka kontak</string>
+    <string name="btn_music">Buka musik</string>
+    <string name="btn_pic">Buka gambar</string>
+    <string name="btn_camera">Buka kamera</string>
+    <string name="btn_youtube">Buka YouTube</string>
 </resources>

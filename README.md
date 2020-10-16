@@ -1,5 +1,3 @@
-# Mobile Course Assignment
+# Task 2 - Using Intent
 
-Assignment for IF4901 - Mobile Programming course.
-
-+ [Task 1 - Simple Calculator](tree/task-1)
+This code is about using intent to link into another activity.
