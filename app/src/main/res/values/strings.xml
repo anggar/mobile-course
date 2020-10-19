@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Mobile Assignment</string>
+    <string name="nrp">NRP</string>
+    <string name="nama">Nama</string>
+    <string name="email">Email</string>
 </resources>
